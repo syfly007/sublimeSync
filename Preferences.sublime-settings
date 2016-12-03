@@ -1,5 +1,6 @@
 {
-	"color_scheme": "Packages/Colorsublime - Themes/DarkKorokai.tmTheme",
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+    "theme": "Flatland Dark.sublime-theme",
 	"font_size": 15,
 	"ignored_packages":
 	[
