@@ -1,0 +1,27 @@
+[
+	{ "keys": ["shift+space"], "command": "exit_insert_mode",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    {
+            "keys": ["f5"],//这是自己设的快捷键
+            "command": "run_existing_window_command", 
+            "args":
+            {
+                "id": "repl_python_run",
+                "file": "config/Python/Main.sublime-menu"
+            }
+    },
+    {
+            "keys": ["f6"],//这是自己设的快捷键
+            "command": "run_existing_window_command", 
+            "args":
+            {
+                "id": "repl_python_ipython",
+                "file": "config/Python/Main.sublime-menu"
+            }
+    },
+]
